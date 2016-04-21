@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>railsclub</title>
+<title>fhir</title>
 
 <meta name="description" content="FHIR">
 <meta name="author" content="Nikolay Ryzhikov">
@@ -82,10 +82,7 @@ h3 strong {
   <div class="slides">
     <section>
       <h3 style="font-size: 63px;">
-        <div style="font-size: 80px;">Первый опыт</div>
-        <div style="font-size:40px;">использования стандарта</div>
         <div class="red" style="font-size:324px">FHIR</div>
-        <div style="font-size:56px">в Санкт-Петербурге</div>
       </h3>
       <p>
       <small style="letter-spacing: 4.5px">Created by <a href="http://github.com/niquola">niquola</a> / <a href="http://twitter.com/niquola">@niquola</a></small>
@@ -93,7 +90,8 @@ h3 strong {
     </section>
 
     <section style="top: 0px; display: block;" class="present">
-      <h5 style="letter-spacing: 3.5px">Nikolay Ryzhikov</h5>
+      <h5 style="letter-spacing: 3.5px">Николай Рыжиков </h5>
+      <p style="font-size: 18px"> (HealthSamurai, CTO)</p>
       <img src="niquola.jpg" style="border:none; height: 500px; box-shado: none; background: transparent;">
       <p style="letter-spacing: 32px;">
       <a href="http://github.com/niquola">
@@ -112,12 +110,177 @@ h3 strong {
     </section>
 
     <section>
+      <ul>
+        <li>Участники рабочих групп FHIR</li>
+        <li>Реализация fhribase, fhir.js</li>
+        <li>Перевод FHIR</li>
+        <li>Argonaut</li>
+        <li>HSPC</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3 style="font-size: 40px;">
+        <div class="red" style="font-size:100px">Interoperability?</div>
+      </h3>
+    </section>
+
+    <section>
+      <h3 style="font-size: 40px;">
+        <div class="red" style="font-size:60px; text-align: left;">Interoperability</div>
+        <br/>
+      </h3>
+      <p style="text-align: right; width: 20em; float: right;">
+        Способность системы взаимодействовать с другими системами,
+        не требующая дополнительных действий
+      </p>
+    </section>
+
+    <section>
+      <img src="pc.jpg"/>
+      <h4>Personal Computer</h4>
+      <p>DataBases etc</p>
+    </section>
+
+    <section>
+      <img src="lan.jpg"/>
+      <h4>Network</h4>
+      <p>Standards & Protocols</p>
+      <p>HL7 v2</p>
+    </section>
+
+    <section>
+      <img style="height: 300px;" src="www.jpg"/>
+      <h4>WWW, Mobile, Clouds</h4>
+      <p>Standards & APIs</p>
+    </section>
+
+    <section>
+      <ul>
+        <li>Платежные системы</li>
+        <li>Социальные сети</li>
+        <li>Мобильные технологии</li>
+        <li>Интернет вещей</li>
+      </ula>
+    </section>
+
+    <section>
+      <img src="micro.jpg"/>
+    </section>
+
+    <section>
+      <h1>HL7 FHIR</h1>
+      <img src="fhir.png" style="height: 200px"/>
+      <p>Интернет медицинских данных</p>
+      <p>Fast Healthcare Interoperability Resources</p>
+    </section>
+
+    <section>
+      <h3>Что такое FHIR?</h3>
+      <hr/>
+      <ul>
+        <li>Ресурсы (Информационная модель)</li>
+        <li>Справочники (Семантика)</li>
+        <li>Сервер и Операции (Взаимодействия)</li>
+      </ul>
+      <hr/>
+      <ul>
+        <li>Открытое Сообщество</li>
+        <li>Доступные Инструменты</li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="res-map.png"/>
+      <p>Расширяемые</p>
+    </section>
+
+    <section>
+      <p>Resource</p>
+      <img src="pt.png"/>
+    </section>
+
+    <section>
+      <h3>Справочники (Терминология)</h3>
+      <img src="term.png"/>
+      <p>LOINC, SNOMED, ICD-19 etc</p>
+    </section>
+
+    <section>
+      <h3>Взаимодействия</h3>
+      <img src="paradigm.jpg"/>
+      <p>HTTP REST, sockets etc</p>
+    </section>
+
+    <section>
+      <h3>Integrations</h3>
+      <ul>
+        <li>HL7v2</li>
+        <li>HL7v3 & CDA</li>
+        <li>DICOM</li>
+        <li>OpenEHR</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Kлиенты</h3>
+
+      <ul>
+        <li>Java</li>
+        <li>.NET</li>
+        <li>JavaScript</li>
+        <li>Pascal</li>
+        <li>Objective-C</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Сервера</h3>
+
+      <ul>
+        <li>Graham (pascal)</li>
+        <li>Furrore (.NET)</li>
+        <li>HAPI (JVM)</li>
+        <li>Fhirbase</li>
+        <li>Aidbox (JVM)</li>
+        <li>...</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>SMART on FHIR</h3>
+      <img src="smart.png"/>
+    </section>
+
+    <section>
+      <h1>FHIR</h1>
+      <p>не совершенен, но лучше нет</p>
+      <p>вы можете сделать его лучше</p>
+    </section>
+
+
+    <section>
+      <h3>Сообщество</h3>
+      <img src="community.jpg"/>
+      <p>fhir.org</p>
+    </section>
+
+    <section>
+      <h3>Working Standard</h3>
+      <ul>
+        <li> <b>2015</b> FHIR DSTU-2</li>
+        <li> <b>2016</b> FHIR STU-3</li>
+      </ul>
+    </section>
+
+    <section>
       <h3>Thx</h3>
       <hr/>
       <h2>Q?</h2>
     </section>
   </div>
 </div>
+
 
 <script src="lib/js/head.min.js"></script>
 <script src="js/reveal.js"></script>
